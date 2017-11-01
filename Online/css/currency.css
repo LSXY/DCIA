@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial" sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+a:hover, a:active, button, input[type=text], input[type=submit] {
+  outline: none;
+}
+
+
+/*定义全局变量*/
+
+ :root {
+  /* --box_border_width:
+    --box_border_color:
+    --box_border_bg:*/
+  --box_border: 0 0 0 2px #666666 inset;
+}
+
+
+/*定义局部变量*/
+
+#view {}

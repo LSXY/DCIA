@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="cn">
+
+<head>
+  <meta charset="UTF-8">
+  <title>轮播1</title>
+  <style>
+
+  /*html, body {
+  	position: relative;
+    width: 100%;
+    height: 100%;
+  }*/
+  </style>
+  <link rel="stylesheet" href="css/currency.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/view.css">
+  <script defer src="js/main.js"></script>
+  <script defer src="js/view.js"></script>
+  <script defer src="js/route.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    <div id="main_left">
+      <div class="main_left_join">
+        <!-- <img src="image/7.jpg"> -->
+        <a href="#join">成为一员</a>
+      </div>
+      <div class="main_left_query">
+        <!-- <img src="image/main/left/search.png"> -->
+        <a href="#s2">入会查询</a>
+        <a href="#s3">资料补填</a>
+      </div>
+    </div>
+    <div id="main_carousel">
+      <ul class="main_carousel_main"></ul>
+      <ul class="main_carousel_control"></ul>
+    </div>
+    <div id="main_right">
+      <div>
+        <a href="#s">one</a>
+        <a href="#s">two</a>
+        <a href="#s">three</a>
+        <a href="#s">four</a>
+        <a href="#s">five</a>
+        <a href="#s">six</a>
+        <a href="#s">seven</a>
+        <a href="#s">eight</a>
+        <a href="#s">↖↘</a>
+      </div>
+      <div>
+        <a href="#s">nine1</a>
+        <a href="#s">tene2</a>
+        <a href="#s">tene3</a>
+        <a href="#s">tene4</a>
+        <a href="#s">tene5</a>
+        <a href="#s">tene7</a>
+        <a href="#s">tene8</a>
+        <a href="#s">tene9</a>
+      </div>
+    </div>
+  </div>
+  <div id="view">
+    <div id="view_join">
+      <div class="view_join_introduce">
+        <div class="view_join_title">
+          <p>遵守协议<span>&nbsp;*我们只招收认真对待的人</span></p>
+        </div>
+        <div class="view_join_agree">
+          <pre>
+  					未连接到互联网
+
+							请试试以下办法：
+							检查网线、调制解调器和路由器
+							重新连接到 Wi-Fi 网络
+							运行网络诊断
+							ERR_INTERNET_DISCONNECTED
+					未连接到互联网
+
+							请试试以下办法：
+							检查网线、调制解调器和路由器
+							重新连接到 Wi-Fi 网络
+							运行网络诊断
+							ERR_INTERNET_DISCONNECTED
+  					未连接到互联网
+
+							请试试以下办法：
+							检查网线、调制解调器和路由器
+							重新连接到 Wi-Fi 网络
+							运行网络诊断
+							ERR_INTERNET_DISCONNECTED
+					未连接到互联网
+
+							请试试以下办法：
+							检查网线、调制解调器和路由器
+							重新连接到 Wi-Fi 网络
+							运行网络诊断
+							ERR_INTERNET_DISCONNECTED
+  					未连接到互联网
+
+							请试试以下办法：
+							检查网线、调制解调器和路由器
+							重新连接到 Wi-Fi 网络
+							运行网络诊断
+							ERR_INTERNET_DISCONNECTED
+					未连接到互联网
+
+							请试试以下办法：
+							检查网线、调制解调器和路由器
+							重新连接到 Wi-Fi 网络
+							运行网络诊断
+							ERR_INTERNET_DISCONNECTED
+  				</pre>
+        </div>
+        <div><button class="view_join_agree_on"></button></div>
+      </div>
+      <div class="view_join_form">
+        <div class="view_join_title">
+          <p>请填写<span>&nbsp;*可不填</span></p>
+        </div>
+        <form action="" method="post" autocomplete="on">
+        <fieldset>
+			    <legend>&nbsp;&nbsp;个人&nbsp;&nbsp;</legend>
+			    <input type="text" name="user_name" placeholder="姓名">
+			    <div class="view_join_form_gender">
+            <span name="user_gender" data-sex="男">男</span>
+            <span name="user_gender" data-sex="女">女</span>
+          </div>
+          <input type="text" name="user_phone" placeholder="电话*">
+			  </fieldset>
+			  <fieldset>
+			    <legend>&nbsp;&nbsp;基本&nbsp;&nbsp;</legend>
+			    <input type="text" name="user_department" placeholder="系部">
+          <input type="text" name="user_class" placeholder="班级">
+			  </fieldset>
+			  <fieldset>
+			    <legend>&nbsp;&nbsp;爱好&nbsp;&nbsp;</legend>
+			    <div class="view_join_form_like">
+            <span name="user_like" data-like="计算机组装/维修">计算机组装/维修</span>
+            <span name="user_like" data-like="Photoshop"> Photoshop</span>
+            <span name="user_like" data-like="Java/JavaEE/Android">Java/JavaEE/Android</span>
+            <span name="user_like" data-like="前端/后端">前端/后端</span>
+            <span name="user_like" data-like="C/C++/C#">C/C++/C#</span>
+            <span name="user_like" data-like="手游">手游</span>
+            <span name="user_like" data-like="电子竞技">电子竞技</span>
+            <span name="user_like" data-like="体育运动">体育运动</span>
+            <span name="user_like" data-like="溜冰">溜冰</span>
+            <span name="user_like" data-like="夜猫子">夜猫子</span>
+            <span name="user_like" data-like="阅读">阅读</span>
+            <span name="user_like" data-like="写作">写作</span>
+          </div>
+			  </fieldset>
+          <!-- 男：<input type="radio" checked="checked" name="Sex" value="male">
+          女：<input type="radio" name="Sex" value="female"> -->
+          <input type="submit" value="提交">
+        </form>
+      </div>
+    	<div class="view_join_notice">
+	      	<div class="view_join_title">
+	            <p>提交成功!<span>&nbsp;*查询码可查看录取结果</span></p>
+	        </div>
+	        <div class="view_join_result">
+	        	<p class="view_join_result_title">获得查询码</p>
+	        	<p class="view_join_query_code">B3SPW962V3S</p>
+	        </div>
+	        <bottun class="view_join_close">关闭</bottun>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
